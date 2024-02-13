@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+
+<!--  product   -->
+    <div class="container product-container">
+        <div class="row">
+                   
+            <div class="col-md-6">
+               
+                <img class="dish1" src="assets/images/dish/5.png" alt="Food Image" >
+            </div>
+            <div class="col-md-6 product-info">
+                <center><h2>Chicken-Biryani</h2></center> <br>
+                <p>Chicken Biryani, a culinary masterpiece that harmonizes aromatic spices, succulent chicken, 
+                      and fragrant basmati rice. Slow-cooked to 
+                      perfection, each bite unfolds layers of warmth from cumin, cardamom, and a hint of cinnamon.
+                     Tender marinated chicken, fluffy saffron-infused rice, and
+                     caramelized onions on top create a taste sensation that's both authentic and unforgettable.
+                     Treat yourself to the essence of Indian cuisine</p>
+                <p><strong>Ingredients:</strong>Chicken , Basmati Rice ,Yogurt, Onions ,Tomatoes, 
+                    Spices (cumin, cardamom, cinnamon, cloves, bay leaves), Ghee or Cooking Oil, Ginger,Garlic
+                    Green Chilies, Fresh Coriander, Mint,Saffron , Lime or Lemon Juice</p>
+                <p><strong>Price:</strong> 150</p>
+                
+                <!-- Quantity Input -->
+                <form action="pay.html">
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" class="form-control" id="quantity" value="1" min="1">
+                </div>
+
+                <!-- Order Button -->
+                <button class="btn btn-primary btn-block">Order Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+            <!--  FOOTER   -->
+        
+            <footer>
+                <p> 2024 Communty kitchen. All rights reserved.</p>
+              </footer>
+    
+    <!-- Bootstrap JS and Popper.js (optional) -->
+    <script>
+        function openAbout() {
+       document.getElementById("about").style.width = "100%";
+   }
+
+   function closeNav() {
+       document.getElementById("about").style.width = "0%";
+   }
+   </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
